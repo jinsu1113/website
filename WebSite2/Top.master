@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Top.master.cs" Inherits="Top" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Top Master Page</title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- 상단 영역 -->
+        <asp:ContentPlaceHolder ID="cphTop" runat="server">
+            <table width="800px">
+                <tr>
+                    <td width="150px">
+                        
+                    </td>
+                    <td valign="bottom" align="right">
+                        <a href="/index.aspx">[홈]</a>
+                        <a href="/Board/List.aspx">[메일링]</a>
+                       
+                    </td>
+                    <td valign="bottom" align="right" width="100px">
+                    </td>
+                </tr>
+            </table>
+            <hr />
+        </asp:ContentPlaceHolder>
+
+        <!-- 콘텐츠 영역 -->
+        <asp:ContentPlaceHolder ID="cphContent" runat="server">
+            <!-- 콘텐츠 페이지에서 내용 삽입 -->
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

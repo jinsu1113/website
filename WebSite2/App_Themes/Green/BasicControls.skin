@@ -1,0 +1,6 @@
+﻿<asp:Label runat="server" Font-Size="small" />
+<asp:TextBox runat="server" BoderColor="#669900" Font-Size="small" />
+<asp:LinkButton runat="server" Font-Size="small" CssClass="lbtnStyle" />
+<asp:LoginStatus runat="server" Font-Size="small" CssClass="lbtnStyle" />
+<asp:Button runat="server" Font-Size="small" Height="20px" />
+<asp:CheckBox runat="server" Font-Size="small" />
